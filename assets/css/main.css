@@ -28,6 +28,7 @@ section, summary, time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
+	
 
 body {
 	line-height: 1;
@@ -1815,6 +1816,17 @@ input, select, textarea {
 				background: rgba(58, 57, 57, 0.025);
 			}
 
+	.button2{
+		display: inline-block;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #7aa8b7;
+        border-radius: 6px;
+        outline: none;
+	}
+
 /* Box */
 
 	.box {
@@ -2651,5 +2663,6 @@ input, select, textarea {
 			.poptrox-popup .closer {
 				opacity: 0.5;
 			}
+			
 
 	}
