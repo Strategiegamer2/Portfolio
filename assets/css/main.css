@@ -2362,6 +2362,11 @@ input, select, textarea {
 				padding: 10em 0 12em 0;
 			}
 
+			.responsive {
+				width: 100%;
+				height: auto;
+			  }
+
 	}
 
 /* Normal */
@@ -2380,6 +2385,10 @@ input, select, textarea {
 			#header {
 				padding: 8em 0 10em 0;
 			}
+			.responsive {
+				width: 100%;
+				height: auto;
+			  }
 
 	}
 	  
@@ -2464,6 +2473,11 @@ input, select, textarea {
 				#banner br {
 					display: none;
 				}
+
+				.responsive {
+					width: 100%;
+					height: auto;
+				  }
 
 	}
 
@@ -2683,6 +2697,11 @@ input, select, textarea {
 			.poptrox-popup .closer {
 				opacity: 0.5;
 			}
+
+			.responsive {
+				width: 100%;
+				height: auto;
+			  }
 			
 
 	}
