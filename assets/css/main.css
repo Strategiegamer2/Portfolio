@@ -2363,7 +2363,7 @@ input, select, textarea {
 			}
 
 			.responsive {
-				width: 100%;
+				max-width: 100%;
 				height: auto;
 			  }
 
@@ -2386,7 +2386,7 @@ input, select, textarea {
 				padding: 8em 0 10em 0;
 			}
 			.responsive {
-				width: 100%;
+				max-width: 100%;
 				height: auto;
 			  }
 
@@ -2475,7 +2475,7 @@ input, select, textarea {
 				}
 
 				.responsive {
-					width: 100%;
+					max-width: 100%;
 					height: auto;
 				  }
 
@@ -2699,7 +2699,7 @@ input, select, textarea {
 			}
 
 			.responsive {
-				width: 100%;
+				max-width: 100%;
 				height: auto;
 			  }
 			
