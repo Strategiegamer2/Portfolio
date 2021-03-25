@@ -1829,6 +1829,11 @@ input, select, textarea {
         outline: none;
 	}
 
+	.button3{
+		height:50px;
+		width:50px;
+	}
+
 /* Box */
 
 	.box {
@@ -2705,3 +2710,26 @@ input, select, textarea {
 			
 
 	}
+	.btn-group button {
+		border: 1px solid #183026; /* Green border */
+		color: white; /* White text */
+		padding: 10px 24px; /* Some padding */
+		cursor: pointer; /* Pointer/hand icon */
+		float: left; /* Float the buttons side by side */
+	  }
+	  
+	  .btn-group button:not(:last-child) {
+		border-right: none; /* Prevent double borders */
+	  }
+	  
+	  /* Clear floats (clearfix hack) */
+	  .btn-group:after {
+		content: "";
+		clear: both;
+		display: table;
+	  }
+	  
+	  /* Add a background color on hover */
+	  .btn-group button:hover {
+		background-color: #183026;
+	  }
