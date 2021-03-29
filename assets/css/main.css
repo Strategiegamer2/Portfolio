@@ -2350,6 +2350,9 @@ input, select, textarea {
 			.poptrox-popup:hover .closer:hover {
 				opacity: 1.0;
 			}
+			.Skills{
+				max-width: 60px;
+			}
 
 /* Wide */
 
@@ -2371,6 +2374,9 @@ input, select, textarea {
 				max-width: 100%;
 				height: auto;
 			  }
+			  .Skills{
+				max-width: 10px;
+			}
 
 	}
 
@@ -2394,6 +2400,9 @@ input, select, textarea {
 				max-width: 100%;
 				height: auto;
 			  }
+			  .Skills{
+				max-width: 10px;
+			}
 
 	}
 	  
@@ -2425,6 +2434,9 @@ input, select, textarea {
 			header p {
 				margin: 0.25em 0 0 0;
 				padding: 0 0 0.5em 0;
+			}
+			.Skills{
+				max-width: 10px;
 			}
 
 		/* Box */
@@ -2461,11 +2473,17 @@ input, select, textarea {
 				.box.style3 {
 					padding: 2.5em 2em 2.5em 2em;
 				}
+				.Skills{
+					max-width: 10px;
+				}
 
 		/* Header */
 
 			#header {
 				padding: 10em 0 12em 0;
+			}
+			.Skills{
+				max-width: 10px;
 			}
 
 		/* Banner */
@@ -2482,6 +2500,10 @@ input, select, textarea {
 				.responsive {
 					max-width: 100%;
 					height: auto;
+				  }
+
+				  .Skills{
+					  max-width: 10px;
 				  }
 
 	}
@@ -2706,8 +2728,7 @@ input, select, textarea {
 			.responsive {
 				max-width: 100%;
 				height: auto;
-			  }
-			
+			  }		
 
 	}
 	.btn-group button {
