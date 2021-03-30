@@ -1833,6 +1833,9 @@ input, select, textarea {
 		height:50px;
 		width:50px;
 	}
+	.SpaceButtons{
+		margin: 1px;
+	}
 
 /* Box */
 
@@ -2353,6 +2356,9 @@ input, select, textarea {
 			.Skills{
 				max-width: 60px;
 			}
+			.SpaceButtons{
+				margin: 1px;
+			}
 
 /* Wide */
 
@@ -2375,7 +2381,10 @@ input, select, textarea {
 				height: auto;
 			  }
 			  .Skills{
-				max-width: 10px;
+				max-width: 60px;
+			}
+			.SpaceButtons{
+				margin: 1px;
 			}
 
 	}
@@ -2401,7 +2410,10 @@ input, select, textarea {
 				height: auto;
 			  }
 			  .Skills{
-				max-width: 10px;
+				max-width: 60px;
+			}
+			.SpaceButtons{
+				margin: 1px;
 			}
 
 	}
@@ -2435,8 +2447,12 @@ input, select, textarea {
 				margin: 0.25em 0 0 0;
 				padding: 0 0 0.5em 0;
 			}
+
 			.Skills{
-				max-width: 10px;
+				max-width: 60px;
+			}
+			.SpaceButtons{
+				margin: 1px;
 			}
 
 		/* Box */
@@ -2474,7 +2490,10 @@ input, select, textarea {
 					padding: 2.5em 2em 2.5em 2em;
 				}
 				.Skills{
-					max-width: 10px;
+					max-width: 60px;
+				}
+				.SpaceButtons{
+					margin: 1px;
 				}
 
 		/* Header */
@@ -2483,7 +2502,10 @@ input, select, textarea {
 				padding: 10em 0 12em 0;
 			}
 			.Skills{
-				max-width: 10px;
+				max-width: 60px;
+			}
+			.SpaceButtons{
+				margin: 1px;
 			}
 
 		/* Banner */
@@ -2503,8 +2525,11 @@ input, select, textarea {
 				  }
 
 				  .Skills{
-					  max-width: 10px;
+					  max-width: 60px;
 				  }
+				  .SpaceButtons{
+					margin: 1px;
+				}
 
 	}
 
@@ -2587,6 +2612,9 @@ input, select, textarea {
 				max-width: 320px;
 				height: 50px; 
 				width: 100px; 
+			}
+			.SpaceButtons{
+				margin: 1px;
 			}
 
 		/* Box */
@@ -2754,3 +2782,6 @@ input, select, textarea {
 	  .btn-group button:hover {
 		background-color: #183026;
 	  }
+	  .SpaceButtons{
+		margin: 1px;
+	}
